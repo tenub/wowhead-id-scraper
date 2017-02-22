@@ -1,0 +1,31 @@
+{
+  "root": true,
+  "extends": "airbnb-base",
+  "env": {
+    "node": true,
+    "es6": true,
+    "mocha": true
+  },
+  "parser": "babel-eslint",
+  "parserOptions": {
+    "ecmaVersion": 8,
+    "sourceType": "module",
+    "ecmaFeatures": {
+      "experimentalObjectRestSpread": true
+    }
+  },
+  "plugins": [
+    "babel",
+    "import"
+  ],
+  "rules": {
+    "arrow-parens": ["error", "always"],
+    "comma-dangle": ["error", "only-multiline"],
+    "indent": ["error", "tab", { "SwitchCase": 1, "VariableDeclarator": 2 }],
+    "no-cond-assign": ["error", "except-parens"],
+    "no-confusing-arrow": ["error", { "allowParens": true }],
+    "no-nested-ternary": 0,
+    "no-plusplus": ["error", { "allowForLoopAfterthoughts": true }],
+    "no-tabs": 0
+  }
+}
