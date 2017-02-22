@@ -23,6 +23,5 @@
     "bluebird": "^3.4.7",
     "dotenv": "^4.0.0",
     "node-fetch": "^1.6.3"
-  },
-  "private": true
+  }
 }
